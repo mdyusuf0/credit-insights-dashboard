@@ -1,30 +1,36 @@
-# Credit Insights Dashboard
+Thought for 2sHere's how to run the Credit Intelligence Platform ZIP file in VS Code:
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+## Step 1: Extract and Open
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/yusufkaif0-1284s-projects/v0-credit-insights-dashboard)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/7CfXHA8Jz5U)
+1. **Extract the ZIP file** to a folder on your computer
+2. **Open VS Code** and go to `File > Open Folder`
+3. **Select the extracted project folder**
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Step 2: Install Dependencies
 
-## Deployment
+Open the integrated terminal in VS Code (`Terminal > New Terminal` or `Ctrl+`` `) and run:
 
-Your project is live at:
+```shellscript
+npm install
+```
 
-**[https://vercel.com/yusufkaif0-1284s-projects/v0-credit-insights-dashboard](https://vercel.com/yusufkaif0-1284s-projects/v0-credit-insights-dashboard)**
+If packages are looking for funding
+  run `npm fund` for details
 
-## Build your app
+  
+This will install all the required dependencies including Next.js, React, Tailwind CSS, and shadcn/ui components.
 
-Continue building your app on:
+## Step 3: Run the Development Server
 
-**[https://v0.app/chat/projects/7CfXHA8Jz5U](https://v0.app/chat/projects/7CfXHA8Jz5U)**
+After installation completes, start the development server:
 
-## How It Works
+```shellscript
+npm run dev
+```
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Step 4: View Your App
+
+- Open your browser and go to `http://localhost:3000`
+- You should see the Credit Intelligence Platform running locally
+- The app will automatically reload when you make changes to the code
